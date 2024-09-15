@@ -17,7 +17,7 @@ const connection = mysql.createConnection({
   database: 'hackmty' // Nombre de tu base de datos
 });
 
-// Conectar a la base de datos
+// Conectar a la base de datoss
 connection.connect((err) => {
   if (err) {
     console.error('Error conectando a la base de datos:', err.stack);
