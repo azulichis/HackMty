@@ -1,0 +1,36 @@
+.hola-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: red; /* Puedes ajustar el color de fondo según tus necesidades */
+    padding: 20px;
+    text-align: center; /* Centra el texto */
+  }
+  
+  .logo {
+    width: 300px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .hola-text {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px; /* Ajusta el tamaño de la fuente según sea necesario */
+    color: white; /* Asegúrate de que el texto sea blanco */
+    max-width: 600px; /* Limita el ancho del contenedor de texto */
+    margin: 0 auto; /* Centra el contenedor de texto */
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    color: white;
+  }
+
+  .lana {
+    width: 300px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  

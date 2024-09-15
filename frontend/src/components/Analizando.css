@@ -1,0 +1,52 @@
+/* Analizando.css */
+
+.analizando-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    background-color: red; /* Color de fondo, puedes ajustarlo según tus necesidades */
+  }
+  
+  .logo {
+    margin-bottom: 5px; /* Espacio entre el logo y el mensaje */
+  }
+  
+  .message-container {
+    margin-top: auto; /* Mueve el mensaje al fondo */
+    margin-bottom: 20px; /* Espacio entre el mensaje y el círculo */
+    margin-top: 2px;
+  }
+  
+  .message {
+    font-family: 'Helvetica', 'Arial', sans-serif; /* Usa Helvetica, con Arial y sans-serif como fuentes de respaldo */
+    font-weight: bold; /* Aplica negrita al texto */
+    font-size: 25px; /* Tamaño del texto */
+    color: #ffffff; /* Color del texto, puedes ajustarlo según tu diseño */
+    font: 'Helvetica';
+  }
+  
+  .circle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px; /* Ajusta la altura según necesites */
+  }
+  
+  .circle {
+    width: 120px; /* Ancho del círculo */
+    height: 120px; /* Alto del círculo */
+    border-radius: 60%; /* Hace que el div sea un círculo */
+    background-color: white; /* Color de fondo del círculo */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .imagen3 {
+    width: 250px; /* Ajusta el tamaño de la imagen dentro del círculo */
+    height: auto; /* Ajusta el tamaño de la imagen dentro del círculo */
+  }
+  

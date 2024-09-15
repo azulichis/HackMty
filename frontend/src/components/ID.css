@@ -1,0 +1,66 @@
+.id-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Asegura que esté centrado verticalmente */
+    padding: 20px;
+    background-color: red;
+    border-radius: 20px;
+    max-width: 500px; /* Limita el ancho del contenedor */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.id-container h1 {
+    margin-bottom: 20px;
+    text-align: center; /* Centra el texto */
+}
+
+.id-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ajusta el ancho al contenedor */
+}
+
+.id-container label {
+    margin-bottom: 10px;
+    font-size: 12px; /* Aumenta un poco el tamaño para mejor visibilidad */
+}
+
+.id-container input[type="file"] {
+    margin-top: 10px;
+    width: 90%; /* Ajusta el ancho del input */
+    align-items: center;
+}
+
+.id-container button {
+    background-color: red;
+    color: white;
+    text-size-adjust: 8px !important;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 90%; /* Ajusta el ancho del botón */
+    align-items: center;
+}
+
+.id-container button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.id-text {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 30px;
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    text-align: center; /* Centra el texto */
+}
+
+

@@ -1,0 +1,28 @@
+/* src/components/WelcomePage.css */
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Hace que el contenedor ocupe toda la altura de la ventana */
+    background-color: red;
+    color: white;
+  }
+  
+  /* src/components/WelcomePage.css */
+  .logo {
+    width: 400px !important; 
+    height: auto; /* Mantiene la proporción del logo */
+    margin-bottom: 8px;
+    margin-top: -20px;
+  }
+  
+  
+  .welcome-text {
+    font-family: 'Helvetica', 'Arial', sans-serif; /* Usa Helvetica, con Arial y sans-serif como fuentes de respaldo */
+    font-weight: bold; /* Aplica negrita al texto */
+    font-size: 50px !important;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  

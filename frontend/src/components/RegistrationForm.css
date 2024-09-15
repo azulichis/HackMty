@@ -1,0 +1,162 @@
+/* Asegura que el body ocupe toda la pantalla y tenga el fondo rojo */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    min-height: 100vh;       /* Hace que el body ocupe toda la altura de la pantalla */
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  /* Formulario */
+  form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: flex-start;
+  }
+  
+  label {
+    color: black;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  input[type="checkbox"] {
+    background-color: white;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    width: 150%;
+  }
+  
+  /* Estilo para botones de radio */
+  .radio-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .radio-group label {
+    display: inline-block;
+    align-items: left;
+    margin-right: 2px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  
+  .privacy {
+    display: flex; /* Flexbox para alinear elementos horizontalmente */
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+  }
+
+  .privacy label {
+    display: inline-block;
+    align-items: left;
+    margin-right: 2px;
+    cursor: pointer;
+    width: 100px;
+    color: black;
+  }
+  
+  .privacy input[type="checkbox"] {
+    width: 10px; /* Ajusta el tamaño del checkbox */
+    height: 10px; /* Ajusta el tamaño del checkbox */
+    margin-right: 1px; /* Espacio entre el checkbox y el texto */
+    /* Opcional: Cambia el tamaño con transform si necesitas ajustar más */
+    transform: scale(1.2); /* Escala el tamaño del checkbox (opcional) */
+  }
+
+  .privacy a {
+    color: red; /* Color azul típico de los enlaces */
+    text-decoration: none;
+    margin-left: 4px;
+  }
+  
+  .privacy a:hover {
+    text-decoration: underline; /* Subrayado en el hover */
+  }
+  
+  .terms {
+    display: flex; /* Flexbox para alinear elementos horizontalmente */
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8px;
+
+  }
+
+  .terms label {
+    display: inline-block;
+    align-items: left;
+    margin-right: 2px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    width: 100px;
+    color: black;
+  }
+  
+  .terms input[type="checkbox"] {
+    width: 10px; /* Ajusta el tamaño del checkbox */
+    height: 10px; /* Ajusta el tamaño del checkbox */
+    margin-right: 1px; /* Espacio entre el checkbox y el texto */
+    /* Opcional: Cambia el tamaño con transform si necesitas ajustar más */
+    transform: scale(1.2); /* Escala el tamaño del checkbox (opcional) */
+  }
+  
+  .terms a {
+    color: red; /* Color azul típico de los enlaces */
+    text-decoration: none;
+    margin-left: 4px;
+  }
+  
+  .terms a:hover {
+    text-decoration: underline; /* Subrayado en el hover */
+  }
+  
+  
+  /* Estilo para el botón */
+  button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: rgba(255, 0, 0, 0.605);
+  }
+  
